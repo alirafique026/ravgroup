@@ -21,9 +21,9 @@
 }
 
 /* the link style (if an image is wrapped by a link) */
-#slider a.imgLink, #slider .video {
+#slider a.imgLink, #slider .video .img {
     z-index:2;
-    cursor:pointer;
+    cursor:pointer !important;
     position:absolute;
     top:0px;left:0px;border:0;padding:0;margin:0;
     width:100%;height:100%;
