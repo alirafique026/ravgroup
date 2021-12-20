@@ -1185,7 +1185,6 @@ margin:5px 0 5px 0;
 	margin:0 0 0 -8px !important;
 	}
 	
-
 /* ================================================== */
 /* elements */
 /* ================================================== */
@@ -1210,7 +1209,7 @@ margin:5px 0 5px 0;
 	
 	address span strong {
         display: inline-block;
-        width: 60px;
+        width: fit-content;
     }
 	
 	address span{
