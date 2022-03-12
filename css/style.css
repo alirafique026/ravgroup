@@ -224,7 +224,7 @@ overflow:visible;
 	}
 	header.smaller {
 	height: 70px;
-	background:rgba(50,50,50,.95);
+	background:#011353;
 	position:fixed;
 	z-index:1200 !important;
 	}
@@ -558,7 +558,7 @@ overflow:visible;
 	margin-top:5px;
 	width:36px;
 	height:36px;
-	background:#333;
+	background:#011353;
 	padding:6px;
 	text-align:center;
 	cursor:pointer;
@@ -629,7 +629,7 @@ overflow:visible;
 /* footer */
 /* ================================================== */
 footer {
-	background: #222222;
+	background: #011353;
 	color: #ccc;
 	padding: 80px 0 0 0;
 	}
@@ -658,8 +658,8 @@ footer {
 	}
 	
 	.subfooter{
-	background:#242424;
-	padding:30px 0 20px 0;
+	background:#011353;
+	padding:10px 0 10px 0;
 	}
 	
 	.de-navbar-left .subfooter{
@@ -728,7 +728,7 @@ footer {
 
 	header.header-mobile{
 	height:100%;
-	background:#111;
+	background:#011353;
 	}
 	
 	header.header-solid.header-light{
@@ -1895,7 +1895,7 @@ margin:5px 0 5px 0;
 	}
 	
 	.text-light{
-	color:#ddd;
+	    color: #555;
 	}
 	
 	.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6{
@@ -3125,7 +3125,7 @@ margin:5px 0 5px 0;
 	font-family:FontAwesome;
 	content: "\f10d";
 	font-size:40px;
-	color:rgba(0,0,0,.1);
+	color:rgba(0,0,0);
 	position:absolute;
 	margin-left:-30px;
 	}
@@ -6154,8 +6154,8 @@ background: #fff;
 	.whatIsRav
 	{
 		display: grid;
-		padding-left: 105px;
-		padding-right: 105px;
+		padding-left: 8vw;
+		padding-right: 8vw;
 		justify-content: space-evenly;
 		column-gap: 24px;
 	}
@@ -6171,14 +6171,17 @@ background: #fff;
 
 
 	.realImage {
-		height: 405px;
-		width: 405px;
+		height: 29.7vw;
+		width: 29.7vw;
 	}
 
 
 	.realContent {
-		height: 405px;
-		width: 405px;
+		height: 29.7vw;
+		width: 29.7vw;
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
 	}
 
 	.added{
@@ -6188,18 +6191,21 @@ background: #fff;
 		grid-row-end: 1;
 		grid-column-start: 2;
 		grid-column-end: 2;
-		height: 381px;
-		width: 700px;
+		height: 27.7vw;
+		width: 52vw;
 	}
 
 	.addedContent
 	{
-		width: 404px;
+		width: 30vw;
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
 	}
 
 	.addedImage
 	{
-		width: 296px;
+		width: 22vw;
 	}
 
 	.value{
@@ -6209,23 +6215,44 @@ background: #fff;
 		grid-row-end: 2;
 		grid-column-start: 2;
 		grid-column-end: 2;
-		height: 405px;
-		width: 700px;
-		margin-top: 24px;
+		height: 29.7vw;
+		width: 52vw;
+		margin-top: 2vw;
 	}
 
 	.valueContent
 	{
-		width: 404px;
+		width: 30vw;
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
 	}
 
 	.valueImage
 	{
-		width: 296px;
+		width: 22vw;
 	}
 
 
 	.content {
 		width: 400px;
 		height: 300px;
+	}
+
+	.test {
+		scroll-snap-type: y mandatory;
+		overflow-y: scroll;
+		height: 100vh;
+	}
+
+	.testing {
+		height: 100vh;
+		scroll-snap-align: start;
+	}
+
+	.line {
+		height: 10px;
+		width: 95vw;
+		background-color: navy;
+		margin-left: 2.5vw;
 	}
