@@ -6149,3 +6149,83 @@ background: #fff;
 	{
 		height: 100vh;
 	}
+
+
+	.whatIsRav
+	{
+		display: grid;
+		padding-left: 105px;
+		padding-right: 105px;
+		justify-content: space-evenly;
+		column-gap: 24px;
+	}
+
+	.real{
+		display: flex;
+		flex-direction: column;
+		grid-row-start: 1;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 1;
+	}
+
+
+	.realImage {
+		height: 405px;
+		width: 405px;
+	}
+
+
+	.realContent {
+		height: 405px;
+		width: 405px;
+	}
+
+	.added{
+		display: flex;
+		flex-direction: row;
+		grid-row-start: 1;
+		grid-row-end: 1;
+		grid-column-start: 2;
+		grid-column-end: 2;
+		height: 381px;
+		width: 700px;
+	}
+
+	.addedContent
+	{
+		width: 404px;
+	}
+
+	.addedImage
+	{
+		width: 296px;
+	}
+
+	.value{
+		display: flex;
+		flex-direction: row;
+		grid-row-start: 2;
+		grid-row-end: 2;
+		grid-column-start: 2;
+		grid-column-end: 2;
+		height: 405px;
+		width: 700px;
+		margin-top: 24px;
+	}
+
+	.valueContent
+	{
+		width: 404px;
+	}
+
+	.valueImage
+	{
+		width: 296px;
+	}
+
+
+	.content {
+		width: 400px;
+		height: 300px;
+	}
