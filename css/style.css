@@ -6182,6 +6182,8 @@ background: #fff;
 		display: flex;
 		justify-content: center;
 		flex-flow: column;
+		background-color: #061d53;
+		color: white;
 	}
 
 	.added{
@@ -6201,6 +6203,8 @@ background: #fff;
 		display: flex;
 		justify-content: center;
 		flex-flow: column;
+		background-color: #061d53;
+		color: white;
 	}
 
 	.addedImage
@@ -6226,6 +6230,8 @@ background: #fff;
 		display: flex;
 		justify-content: center;
 		flex-flow: column;
+		color: white;
+		background-color: #061d53;
 	}
 
 	.valueImage
