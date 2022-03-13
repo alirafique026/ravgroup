@@ -77,41 +77,28 @@
 		}
 	}
 	
-	/* --------------------------------------------------
-	 * preloader
-	 * --------------------------------------------------*/
-	//calling jPreLoader function with properties
-    jQuery('body').jpreLoader({
-        splashID: "#jSplash",
-        splashFunction: function () {  //passing Splash Screen script to jPreLoader
-            jQuery('#jSplash').children('section').not('.selected').hide();
-            jQuery('#jSplash').hide().fadeIn(800);
-            init_de();
-            var timer = setInterval(function () {
-                splashRotator();
-            }, 1500);
-        }
-    }, function () {	//jPreLoader callback function
-        clearInterval();
+	var loader;
 
-        jQuery(function () {
-            var v_url = document.URL;
-
-            if (v_url.indexOf('#') != -1) {
-                var v_hash = v_url.substring(v_url.indexOf("#") + 1);
-
-
-                jQuery('html, body').animate({
-                    scrollTop: jQuery('#' + v_hash).offset().top - 70
-                }, 200);
-                return false;
-            }
-        });
-
-
-    });
-
-    // End of jPreLoader script
+	function loadNow(opacity) {
+		if (opacity <= 0) {
+			displayContent();
+		} else {
+			loader.style.opacity = opacity;
+			window.setTimeout(function() {
+				loadNow(opacity - 0.05);
+			}, 05);
+		}
+	}
+	
+	function displayContent() {
+		loader.style.display = 'none';
+		document.getElementById('content').style.display = 'block';
+	}
+	
+	document.addEventListener("DOMContentLoaded", function() {
+		loader = document.getElementById('loader');
+		loadNow(1);
+	});
 
     function splashRotator() {
         var cur = jQuery('#jSplash').children('.selected');
