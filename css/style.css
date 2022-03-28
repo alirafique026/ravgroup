@@ -6296,3 +6296,16 @@ background: #fff;
 	{
 		color: #061d53 !important; 
 	}
+
+	.slider-nav {
+		margin-top: -10vw; 
+		background-color:#000000c9;
+		
+	}
+
+	@media (min-width: 1890px)
+		{
+			.slider-nav {
+				margin-top: -5vw; 
+			}
+		}
