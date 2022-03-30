@@ -333,7 +333,7 @@
 			singleItem: true,
 			navigation: false,
 			pagination: true,
-			autoPlay: false
+			autoPlay: true
 		});
 		// Custom Navigation owlCarousel
 		$(".next").on("click", function() {
