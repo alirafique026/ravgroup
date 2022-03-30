@@ -5605,7 +5605,7 @@ a.read_more i {
 	float     : left;
 	padding   : 10px 20px 0px 20px;
 	margin-top: -15px;
-	border    : solid 2px #ddd;
+	/* border    : solid 2px #ddd; */
 }
 
 .timeline .tl-block .tl-time:after {
