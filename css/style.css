@@ -5018,7 +5018,7 @@ footer .widget_list li a {
 }
 
 #services-list li a:hover {
-	color: #111;
+	color: rgb(255, 255, 255);
 }
 
 .pic-services img {
