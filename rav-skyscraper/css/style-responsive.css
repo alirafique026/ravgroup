@@ -1,0 +1,296 @@
+@media only screen and (max-width: 1850px) {
+.main-section.marketing h2{ font-size:79px}
+}
+@media only screen and (max-width: 1700px) {
+	
+.banner-del img{ height:230px;}
+#logo img{ height:160px;}
+.footer-logo img{ height:160px;}
+.work-section ul li figcaption{ padding:40px;}
+.work-section ul li strong{ padding-top:50px;}
+.work-section ul li strong b{ font-size:60px; line-height:70px;}
+.main-section.marketing h2{ font-size:65px; line-height:70px}
+h3{ font-size:50px; line-height:60px}
+.request-left h2 {font-size: 110px; line-height: 125px;}
+h4{ font-size:40px;}
+.request-left p{ font-size:24px}
+.welcome-page h1{ font-size:90px}
+.welcome-page img{ height:160px;}
+}
+
+@media only screen and (max-width: 1600px) {
+	.request-left h2 {font-size: 100px;line-height: 115px;}
+	.request-form{ padding:0 30px}
+	.request-form .row label{ font-size:18px;}
+	.request-form input[type="text"], .request-form input[type="email"], .request-form input[type="tel"], .request-form textarea{ font-size:18px;}
+.request-form h6{ font-size:25px;}
+.request-form input[type="submit"]{ font-size:26px; width:270px}
+.welcome-page h1{ font-size:80px; line-height:90px}
+}
+
+@media only screen and (max-width: 1500px) {
+.main-section ul li p{ line-height:42px}	
+p.sub-heading{ font-size:32px; line-height:45px}
+.banner-content h3{ font-size:60px;}
+.banner-content h3 span{ font-size:100px; line-height:115px}
+.main-section ul li .col{ padding:30px 40px 0}
+.request-left h2 {font-size: 90px;line-height: 115px;}
+h4{ font-size:35px;}
+.main{ height:750px;}
+.head1{ font-size:70px;}
+.title h3{ font-size:60px; line-height:70px;}
+.app-b-del img{ height:540px;}
+.app-b-del h2 {font-size: 95px;line-height: 120px;top: 153px;}
+.title{ padding:60px 0}
+.gallery{ padding:100px 0}
+.heading h3{ font-size:60px;}
+.project-btn{ width:290px; font-size:25px;}
+.banner-content{ max-height:65%}
+.ico span{ width:160px; height:160px;}
+.welcome-page h1{ font-size:70px; line-height:90px}
+}
+@media only screen and (max-width: 1400px) {
+.wrapper{ width:100%; padding:0 20px;}
+nav ul li{ width:14%}
+h2{ font-size:55px; line-height:60px;}
+p.sub-heading{ font-size:30px; line-height:40px;}
+.award ul li span{ font-size:30px;}
+.our-services ul li strong{ font-size:30px;}
+.our-services ul li span{ font-size:42px;}
+.box-testi p{ font-size:19px;}
+footer .social a{ font-size:30px;}
+.number1{ font-size:30px;}
+.btn{ font-size:16px;}
+.home-nav ul li{ margin:0 60px;}
+.home-nav ul li span{ font-size:42px;}
+.home-nav{ margin-top:70px;}
+.work-section ul li figcaption{ padding:30px;}
+.work-section ul li strong{ padding-top:40px;}
+.view-all{ width:120px; height:120px;}
+.work-section ul li span small{ margin:0 10px;}
+h3{ font-size:42px; line-height:50px}
+.main-section ul li p{ font-size:27px; line-height:35px}
+.main-section ul li .col{ padding:30px 30px 10px}
+.main-section.marketing h2{ font-size:55px; line-height:65px}
+.main-section ul li .ico2{ margin-bottom:20px;}
+.number{ font-size:19px}
+.main{ height:700px;}
+.app-b-del img{ height:485px}
+.app-b-del h2 {font-size: 80px;line-height: 120px;top: 134px;}
+.contact-top address strong{ font-size:36px;}
+.contact-top address{ padding:50px 0}
+.banner-content h3 span{ font-size:90px;}
+.banner-content h3{ font-size:55px; line-height:65px}
+.welcome-page h1{ font-size:60px; line-height:75px}
+}
+
+
+@media only screen and (max-width: 1300px) {
+.banner-del img{ height:190px;}
+.home-nav ul li{ margin:0 30px;}
+#logo img{ height:120px;}
+.footer-logo img{ height:120px;}
+.main-section ul li p{ font-size:24px; line-height:28px; margin-top:10px}
+h3{ font-size:36px; line-height:45px; letter-spacing:3px}
+.main-section.marketing h2{ font-size:48px; line-height:55px}
+.request-form .row label{ width:50%}
+.request-box{ padding:25px 40px 70px}
+.request-left h2 {font-size: 75px;line-height: 100px;}
+.request-left p{ padding:0}
+.request-left{ width:41%}
+.title h3 {font-size: 50px;line-height: 60px;}
+.head1{ font-size:60px;}
+.main-services p{ font-size:25px; line-height:37px;}
+.main-services .col-6 img{ height:90px;}
+.heading h3{ font-size:50px;}
+.bottom-contact{ padding-bottom:50px;}
+.project-btn {font-size: 21px;width: 200px;}
+.contact-top address strong{ font-size:30px; padding:20px 0 10px}
+
+.welcome-page img{ height:120px;}
+.welcome-page h1{ font-size:55px; line-height:75px}
+}
+@media only screen and (max-width: 1200px) {
+h2{ font-size:45px; line-height:45px; letter-spacing:3px}
+.top-section h2::after{ width:200px}
+.box-testi{padding: 50px 50px 0;}
+.footer-row address{ margin:0 50px;}
+footer{ min-height:940px;}
+.start-project::after{ margin-left:-30px; border-width: 30px;}
+.start-project{ height:370px; padding-top:70px;}
+.start-project p{ padding-bottom:30px;}
+.main-section ul li .ico2 img{ height:40px}
+.main-services .col-6{ padding:30px 50px 0}
+
+}
+
+@media only screen and (max-width: 1100px) {
+#logo{ margin:15px 0 0 15px;}
+.home-banner{ height:auto !important; padding-bottom:50px;}
+.drop-arrow{ display:none;}
+nav ul li:hover strong {bottom: -6px;margin-top: 0;transform: scale(1.4, 1.4); -moz-transform: scale(1.4, 1.4);-webkit-transform: scale(1.4, 1.4);-ms-transform: scale(1.4, 1.4);-o-transform: scale(1.4, 1.4); margin-right:0 }
+nav ul li span{ font-size:13px;}
+nav ul li strong{ font-size:24px}
+.number{ font-size:17px; margin-top:8px;}
+.social{ margin:8px 10px 0 0}
+nav ul{ margin-top:0px;}
+#inner-logo img {height: 37px;}
+.home-nav ul li {margin: 0 23px;}
+.home-nav ul li span{ font-size:32px;}
+.home-nav ul li small{ font-size:15px;}
+.work-section ul li strong b {font-size: 40px;line-height: 45px;}
+.view-all {height: 90px;width: 90px; padding-top:9px;}
+.view-all:before{ left:2px; right:2px; top:2px; bottom:2px; height:auto; width:auto}
+.view-all:after{ left:4px; right:4px; top:4px; bottom:4px; height:auto; width:auto}
+.view-all small{ font-size:13px;}
+.our-services h2 img{ height:41px;}
+.main-section ul li .ico2{ margin-bottom:10px}
+.main-section ul li .col{ padding:20px 20px 10px}
+.banner-content h3 {font-size: 45px;line-height: 52px;}
+.banner-content h3 span{ font-size:65px; line-height:90px;}
+.banner-content {max-height: 49%;}
+.ico span {height: 130px;width: 130px;}
+p.sub-heading{ font-size:25px;}
+.app-b-del{ bottom:-90px}
+.app-b-del h2{ font-size:60px; top:141px}
+.design-row:nth-child(2) .pic img {
+    height: 380px;
+    margin-top: -30px;
+}
+.design-row:nth-child(2){ height:350px}
+.design-row:nth-child(4){ height:auto}
+}
+@media only screen and (max-width: 1000px) {
+.work-section ul li span small{ margin:0 5px; font-size:12px}
+
+.work-section ul li span{ white-space:normal}
+.work-section ul li figcaption{ padding:30px 5px}
+.work-section ul li strong{ padding-top:0px;}
+.work-section ul li strong a {height: 30px;width: 30px; background-size:100%}
+.work-section ul li strong b {font-size: 40px;line-height: 45px; padding-top:0}
+.main-section ul li .pic{ width:100%;}
+.main-section ul li .col{ width:100%; padding:30px }
+.request-left{ width:100%; padding:50px 0}
+.request-form{ width:100%}
+.request-left h2 {font-size: 60px;line-height: 70px;}
+h4{ font-size:30px; line-height:40px;}
+.bottom-contact{ padding:50px 20px}
+.head1{ font-size:45px; line-height:50px;}
+.title h3 {font-size: 40px;line-height: 50px;}
+.title{ padding:40px 15px}
+.main-services .col-6{ padding:30px 15px;}
+.main-services{ height:auto}
+}
+@media only screen and (max-width: 800px) {
+.bottom-contact p br{ display:none}
+.banner-content h3 br{ display:none;}
+.ico span img{ max-width:40%}
+.banner-content h3 span img{ height:55px;}
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.work-section ul li{ width:100%;}
+
+.design-row .col-6{ width:100%; text-align:center}
+.design-row:nth-child(2){ height:auto}
+.design-row:nth-child(2) .pic img{ margin-top:0px;}
+.design-row:nth-child(4){ height:auto}
+.design-row .col-6.pic img{ float:none !important; margin-top:40px;}
+.design-row:nth-child(2n) .col-6.pic{ width:100%; text-align:center}
+.testimonial{ background:none}
+.box-testi{ width:100%; padding:30px}
+.start-project{ height:auto; padding:40px 0}
+footer{ min-height:inherit; padding-top:40px}
+.footer-link{ position:relative; bottom:auto; padding:20px 0; margin-top:30px}
+.copyright{ position:relative; float:left}
+.footer-row{ padding-top:30px}
+footer .social{ margin:30px 0 20px}
+.number1{ font-size:24px}
+footer h2{ padding-top:35px}
+h2{ font-size:38px; line-height:45px}
+footer .social a{ font-size:22px;}
+.request-form .col{ width:100%}
+.request-box{ padding:25px 15px 70px}
+.request-form input[type="submit"]{ font-size:20px; width:190px; height:50px;}
+.request-form .row label{ width:100%; margin:10px 0}
+.request-form{ padding:0 10px}
+h4{ font-size:25px;}
+.request-left p {font-size: 20px;line-height: 30px;}
+.request-left h2 {font-size: 45px;line-height: 54px;}
+.contact-top address{ width:100%; background:#363a45}
+.contact-top address + address{ background:#282b33}
+.bottom-contact p br{ display:none}
+.heading h3{ font-size:40px; line-height:50px;}
+.bottom-contact p {font-size: 18px;line-height: 25px;padding-top: 10px;}
+
+nav{ float:left; width:100%; padding:20px 0; display:none}
+nav ul{ float:left; width:100%}
+nav ul li{ float:left; width:100%; text-align:left}
+nav ul li a{ width:100%; padding:10px; background:rgba(0,0,0,.5); border-radius:4px; margin-bottom:5px}
+.toggle{ display:block; margin-right:15px;}
+.col-right{ display:none}
+nav ul li:hover strong{ bottom: 0px;margin-right: 0;margin-top: 0;transform: scale(1,1);-webkit-transform: scale(1,1);-o-transform: scale(1,1);-ms-transform: scale(1,1);-moz-transform: scale(1,1);}
+nav ul li:hover span{ line-height:23px;}
+nav ul li:hover{ bottom:auto}
+.ico{ display:none}
+.banner-content{ position:static; float:left; width:100%; padding:70px 0 40px}
+.main{ height:auto;}
+.top-section.space{ padding-top:50px}
+.top-section h2::after{ margin-top:20px;}
+.app-b-del img{ height:280px}
+.app-b-del {bottom: -30px;}
+.app-b-del h2 {font-size: 46px;top: 61px;}
+.title h3 {font-size: 30px;line-height: 40px;}
+.title h3 br{ display:none}
+.main-services .bottom{ top:94%}
+.main-services .bottom a{ width:120px; height:120px;}
+.footer-link li{ margin:0 8px;}
+.footer-row address strong{ font-size:17px;}
+.work-section ul li figcaption{ padding:50px 15px}
+.work-section ul li strong{ padding-top:40px;}
+.work-section ul li strong b{ padding-top:20px}
+.banner-del img{ height:130px;}
+.btn{ margin:0 10px}
+#logo{ margin-left:0px; width:100%; text-align:center; margin-bottom:25px;}
+.home-nav ul li{ margin:0 10px;}
+.home-nav ul li::after{ width:80%}
+.home-nav ul li::before{ width:60%}
+.home-nav ul li:hover::before{ width:100%}
+.design-row{ padding:60px 0}
+.welcome-page img{ height:90px}
+.welcome-page h1{ font-size:45px; line-height:75px}
+}
+
+
+
+/* Wide Mobile Layout: 480px.*/
+
+@media only screen and (max-width:639px) {
+.banner-content h3 {font-size: 31px;line-height: 40px;}
+.banner-content h3 span {font-size: 40px;line-height: 60px;}
+.app-b-del{ width:100%}
+.main-services .col-6{ width:100%}
+.main-services .col-6 img{ height:60px;}
+.work-section ul li strong{ padding-top:15px;}
+.work-section ul li strong b{ padding-top:10px}
+.award ul li{ width:100%; margin-bottom:30px}
+.award ul li:last-child{ margin:0}
+.top-section h2 br{ display:none}
+.top-section h2{ font-size:30px}
+.btn{ margin-bottom:10px}
+p.sub-heading br{ display:none}
+.footer-row address{ margin:0 15px}
+.our-services ul li:hover span{ left:-100px}
+}
+@media only screen and (max-width: 550px){
+	.home-nav{ display:none}
+}
+@media only screen and (max-width: 500px){
+.box-testi{width:100%; padding:30px 0}
+.work-section ul li figcaption{ padding:5px 10px}
+.work-section ul li strong b{ font-size:25px; line-height:25px}
+.work-section ul li strong b{ padding-top:0px}
+.work-section ul li strong{ padding-top:8px}
+
+}

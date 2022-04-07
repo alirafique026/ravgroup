@@ -220,12 +220,12 @@ a.btn_1.rounded,
 }
 a.btn_1.yellow,
 .btn_1.yellow {
-  background: #4caf50;
+  background: #ffffff;
   color: #111;
 }
 a.btn_1.yellow:hover,
 .btn_1.yellow:hover {
-  background-color: #b43a3e;
+  background-color: #4caf50;
   color: #fff;
 }
 
@@ -606,7 +606,7 @@ button[disabled] {
 
 .backward:hover,
 .forward:hover {
-  background: #b43a3e;
+  background: #4caf50;
   color: #fff;
 }
 
