@@ -7295,7 +7295,7 @@ a.btn btn-custom:hover {
 .flip-box-back {
 	background-size: cover;
 	background-position: center;
-	border-radius: 8px;
+	border-radius: 16px;
 	min-height: 245px;
 	-ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
 	transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
