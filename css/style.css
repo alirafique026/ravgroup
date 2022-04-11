@@ -7194,7 +7194,7 @@ a.btn btn-custom:hover {
 .colour {
 	width: 32.5vw;
 	height: 17vw;
-	margin-top: 8vw;
+	margin-top: 8.5vw;
 	margin-left: 8.7vw;
 	padding-top: 3vw;
 	padding-right: 3vw;
@@ -7229,6 +7229,14 @@ a.btn btn-custom:hover {
 	}
 }
 
+@media (max-width: 654px)
+{
+	.desc {
+		margin-bottom: -2vw;
+	}
+}
+
+
 @media (max-width: 575px)
 {
 	.desc {
@@ -7239,14 +7247,14 @@ a.btn btn-custom:hover {
 @media (max-width: 375px)
 {
 	.desc {
-		margin-bottom: -2.5vw;
+		margin-bottom: -3vw;
 	}
 }
 
 .more {
 	font-size: 1vw;
 	font-weight: bold;
-	margin-left: 3.8vw;
+	margin-left: 2.8vw;
 	line-height: 1.4vw;
 	color: white !important;
 
