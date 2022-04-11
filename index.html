@@ -653,28 +653,6 @@
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
-    <script>
-        jQuery(document).ready(function () {
-            jQuery("#revolution-slider").revolution({
-                sliderType: "standard",
-                sliderLayout: "fullscreen",
-                delay: 3500,
-                navigation: {
-                    arrows: { enable: true }
-                },
-                parallax: {
-                    type: "mouse",
-                    origo: "slidercenter",
-                    speed: 2000,
-                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-                },
-                spinner: "off",
-                gridwidth: 1140,
-                gridheight: 640,
-                disableProgressBar: "on"
-            });
-        });
-    </script>
 
     <script src="js/slick-1.8.1/slick/slick.js"></script>
     <script>
@@ -685,7 +663,7 @@
                 dots: false,
                 arrows: false,
                 fade: true,
-                autoplay: false,
+                autoplay: true,
                 asNavFor: '.slider-nav'
             });
 
@@ -696,7 +674,7 @@
                 dots: false,
                 centerMode: true,
                 focusOnSelect: true,
-                autoplay: false,
+                autoplay: true,
             });
 
         })
