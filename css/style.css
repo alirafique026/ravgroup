@@ -7222,6 +7222,27 @@ a.btn btn-custom:hover {
 	color: white !important;
 }
 
+@media (max-width: 768px)
+{
+	.desc {
+		margin-bottom: -1vw;
+	}
+}
+
+@media (max-width: 575px)
+{
+	.desc {
+		margin-bottom: -2vw;
+	}
+}
+
+@media (max-width: 375px)
+{
+	.desc {
+		margin-bottom: -2.5vw;
+	}
+}
+
 .more {
 	font-size: 1vw;
 	font-weight: bold;
