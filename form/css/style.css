@@ -162,14 +162,13 @@ a.animated_link.active:before {
 a.btn_1,
 .btn_1 {
   border: none;
-  color: #fff;
-  background: #061d53;
+  background: #ffffff;
+  color: #111;
   outline: none;
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
   padding: 12px 25px;
-  color: #fff;
   font-weight: 600;
   text-align: center;
   line-height: 1;
@@ -423,7 +422,7 @@ a.btn_1.yellow:hover,
 .content-left-wrapper .btn_1 {
   margin: 25px 0 25px 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .content-left-wrapper .btn_1 {
     display: none;
   }
