@@ -440,6 +440,18 @@ header.de_header_2.smaller .info {
 	font-weight: 700;
 }
 
+@media (max-width: 1200px) {
+	#mainmenu {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 992px) {
+	#mainmenu {
+		font-size: 15px;
+	}
+}
+
 #mainmenu ul {
 	float: right;
 	margin: 0px 0px;
@@ -458,7 +470,7 @@ header.de_header_2.smaller .info {
 
 #mainmenu a {
 	display: inline-block;
-	padding: 25px 0px 25px 20px;
+	padding: 25px 0px 25px 19px;
 	line-height: 35px;
 	text-decoration: none;
 	color: #fff;
