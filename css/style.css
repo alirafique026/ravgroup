@@ -7423,3 +7423,142 @@ a.btn btn-custom:hover {
 	padding: 10px 12px;
 	text-transform: uppercase;
 }
+
+/* For OUR Team only */
+
+
+.boxx-container {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 35px 35px 35px 8vw;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	color: white;
+	column-gap: 30px;
+}
+
+@media screen and (min-width:1380px) {
+	.boxx-container {
+		flex-direction: row
+	}
+}
+
+.boxx-item {
+	position: relative;
+	-webkit-backface-visibility: hidden;
+	width: 245px;
+	margin-bottom: 35px;
+	max-width: 100%;
+}
+
+.flipp-box {
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+}
+
+.flipp-box-front,
+.flipp-box-back {
+	background-size: cover;
+	background-position: center;
+	border-radius: 16px;
+	min-height: 245px;
+	-ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+	transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+	-webkit-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flipp-box-front {
+	-ms-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flipp-box:hover .flipp-box-front {
+	-ms-transform: rotateY(-180deg);
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flipp-box-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flipp-box:hover .flipp-box-back {
+	-ms-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flipp-box .inner {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	outline: 1px solid transparent;
+	-webkit-perspective: inherit;
+	perspective: inherit;
+	z-index: 2;
+
+	transform: translateY(-50%) translateZ(60px) scale(.94);
+	-webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+	-ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+	top: 50%;
+}
+
+.flipp-box-header {
+	font-size: 17px;
+	color: white !important;
+}
+
+.flipp-box p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.flipp-box-img {
+	margin-top: 25px;
+	width: 36px;
+}
+
+.flipp-box-button {
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 25px;
+	padding: 10px 12px;
+	text-transform: uppercase;
+}
+
+
+/* OUR TEAM END */
