@@ -84,7 +84,7 @@ jQuery.extend(true,_R, {
 			opt.c.find('.hglayerinfo').remove();	
 			nextli.append('<div class="helpgrid" style="width:'+(opt.gridwidth[opt.curWinRange]*opt.bw)+'px;height:'+(opt.gridheight[opt.curWinRange]*opt.bw)+'px;"></div>');
 			var hg = nextli.find('.helpgrid');
-			hg.append('<div class="hginfo">Zoom:'+(Math.round(opt.bw*100))+'% &nbsp;&nbsp;&nbsp; Device Level:'+opt.curWinRange+'&nbsp;&nbsp;&nbsp; Grid Preset:'+opt.gridwidth[opt.curWinRange]+'x'+opt.gridheight[opt.curWinRange]+'</div>')
+			hg.append('<div class="hginfo">Zoom:'+(Math.round(opt.bw*100))+'% &nbsp;;&nbsp;;&nbsp;; Device Level:'+opt.curWinRange+'&nbsp;;&nbsp;;&nbsp;; Grid Preset:'+opt.gridwidth[opt.curWinRange]+'x'+opt.gridheight[opt.curWinRange]+'</div>')
 			opt.c.append('<div class="hglayerinfo"></div>')
 			hg.append('<div class="tlhg"></div>');
 		}
@@ -168,7 +168,7 @@ jQuery.extend(true,_R, {
 					jQuery.each(_nc.data(),function(key,val) {
 						if (typeof val !== "object") {
 								
-								ltxt = ltxt + '<span style="white-space:nowrap"><span style="color:#27ae60">'+key+":</span>"+val+"</span>&nbsp; &nbsp; ";
+								ltxt = ltxt + '<span style="white-space:nowrap"><span style="color:#27ae60">'+key+":</span>"+val+"</span>&nbsp;; &nbsp;; ";
 							
 						}
 					});

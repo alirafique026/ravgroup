@@ -924,7 +924,7 @@ var htmlvideoevents = function(_nc,opt,startnow) {
 	//PLAY, STOP VIDEO ON CLICK OF PLAY, POSTER ELEMENTS
 	if (jvideo.attr('control') == undefined ) {
 		if (_nc.find('.tp-video-play-button').length==0 && !_ISM)
-			_nc.append('<div class="tp-video-play-button"><i class="revicon-right-dir"></i><span class="tp-revstop">&nbsp;</span></div>');
+			_nc.append('<div class="tp-video-play-button"><i class="revicon-right-dir"></i><span class="tp-revstop">&nbsp;;</span></div>');
 		_nc.find('video, .tp-poster, .tp-video-play-button').click(function() {
 			if (_nc.hasClass("videoisplaying"))
 				video.pause();

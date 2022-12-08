@@ -583,7 +583,7 @@ jQuery.extend(true, _R, {
 	//	-	CHECK IF BROWSER IS IE		-		
 	isIE : function( version, comparison ){
 	    var $div = jQuery('<div style="display:none;"/>').appendTo(jQuery('body'));
-	    $div.html('<!--[if '+(comparison||'')+' IE '+(version||'')+']><a>&nbsp;</a><![endif]-->');
+	    $div.html('<!--[if '+(comparison||'')+' IE '+(version||'')+']><a>&nbsp;;</a><![endif]-->');
 	    var ieTest = $div.find('a').length;
 	    $div.remove();
 	    return ieTest;
