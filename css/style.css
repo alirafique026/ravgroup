@@ -7234,30 +7234,26 @@ a.btn btn-custom:hover {
 	color: white !important;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
 	.desc {
 		margin-bottom: -1vw;
 	}
 }
 
-@media (max-width: 654px)
-{
+@media (max-width: 654px) {
 	.desc {
 		margin-bottom: -2vw;
 	}
 }
 
 
-@media (max-width: 575px)
-{
+@media (max-width: 575px) {
 	.desc {
 		margin-bottom: -2vw;
 	}
 }
 
-@media (max-width: 375px)
-{
+@media (max-width: 375px) {
 	.desc {
 		margin-bottom: -3vw;
 	}
@@ -7574,3 +7570,26 @@ a.btn btn-custom:hover {
 
 
 /* OUR TEAM END */
+
+
+/* GALLERY PAGE */
+.square {
+	min-height: 174px;
+	max-height: 174px;
+}
+
+.rect {
+	min-height: 174px;
+}
+
+.vid-frame {
+	padding: 20px;
+}
+
+/* GALLERY PAGE END*/
+
+.about-footer {
+	padding-top: 64px;
+	text-align: justify;
+	padding-right: 25px;
+}
