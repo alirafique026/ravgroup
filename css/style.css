@@ -7593,3 +7593,32 @@ a.btn btn-custom:hover {
 	text-align: justify;
 	padding-right: 25px;
 }
+
+.rera-bg {
+	background-image: url('.././images/rera.jpg');
+}
+
+.org-bg {
+	background-image: url('.././images/organic.gif');
+}
+
+.pan-bg {
+	background-image: url('.././images/pan.jpg');
+}
+
+.gst-bg {
+	background-image: url('.././images/gst.jpg');
+}
+
+.inc-bg {
+	background-image: url('.././images/incorporation.jpg');
+}
+
+.reg-bg {
+	background-image: url(".././images/registration.jpg");
+}
+
+.legal-head {
+	color: rgb(0 0 0) !important;
+	padding-left: 8vw;
+}
