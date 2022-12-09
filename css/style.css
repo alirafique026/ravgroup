@@ -7622,3 +7622,55 @@ a.btn btn-custom:hover {
 	color: rgb(0 0 0) !important;
 	padding-left: 8vw;
 }
+
+.venture-name {
+	color: #061d53 !important;
+}
+
+.slider-venture {
+	padding-bottom: 20px;
+}
+
+.slider-about {
+	padding-bottom: 84px;
+	padding-top: 0px;
+}
+
+.slider-img {
+	width: 100%;
+}
+
+.abt-side-content {
+	color: white !important;
+}
+
+.cmd-abt {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.abt-name {
+	color: white;
+	text-align: right;
+}
+
+.abt-quote {
+	color: white;
+	font-size: 12px;
+}
+
+.abt-vid-btn {
+	background-size: cover;
+}
+
+.abt-vid-bg {
+	left: 394px;
+	top: 139.5px;
+}
+
+.abt-bg-overlay {
+	width: 848px;
+	height: 339px;
+}
