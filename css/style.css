@@ -5788,6 +5788,7 @@ a.read_more i {
 
 .side-bg {
 	position: relative;
+	background: #ffffff !important;
 }
 
 .side-bg .image-container {
@@ -7149,6 +7150,10 @@ a.btn btn-custom:hover {
 	scroll-snap-align: start;
 }
 
+.line-sec {
+	padding: 0px;
+}
+
 .line {
 	height: 5px;
 	width: 100vw;
@@ -7674,3 +7679,329 @@ a.btn btn-custom:hover {
 	width: 848px;
 	height: 339px;
 }
+
+.slider-img-small {
+	max-width: 100%;
+	height: auto;
+}
+
+.div-img-small {
+	margin-top: 1vw;
+}
+
+.home-heading {
+	color: rgb(0 0 0) !important;
+	padding-left: 8vw;
+}
+
+.who-we-are {
+	padding: 0vw 8vw 0vw 8vw;
+	font-size: 16px;
+}
+
+.who-we-are-sec {
+	padding-top: 0px;
+}
+
+.rav-img {
+	width: 100%;
+}
+
+/* HOME SLIDER */
+
+.property-bg-img {
+	background: url(".././images/partner/1.jpg") no-repeat center;
+}
+
+.property-bg-clr {
+	background: #138d00db;
+}
+
+.property-line {
+	height: 7vw;
+}
+
+.property-desc {
+	margin-top: -6.9vw;
+}
+
+.sundara-bg-img {
+	background: url(".././images/partner/2.jpg") no-repeat center;
+}
+
+.sundara-bg-clr {
+	background: #89012bd1;
+}
+
+.sundara-line {
+	height: 7.7vw;
+}
+
+.sundara-desc {
+	margin-top: -7.9vw;
+}
+
+.club-bg-img {
+	background: url('.././images/partner/3.jpg') no-repeat center;
+}
+
+.club-bg-clr {
+	background: #9f4901d6;
+}
+
+.club-line {
+	height: 7.7vw;
+}
+
+.club-desc {
+	margin-top: -7.9vw;
+}
+
+.resort-bg-img {
+	background: url('.././images/partner/4.jpg') no-repeat center;
+}
+
+.resort-title {
+	font-size: 1.3vw;
+}
+
+.resort-bg-clr {
+	background: #06297acf;
+}
+
+.resort-line {
+	height: 7vw;
+}
+
+.resort-desc {
+	margin-top: -6.9vw;
+}
+
+.scraper-bg-img {
+	background: url('.././images/partner/5.jpg') no-repeat center;
+}
+
+.scraper-bg-clr {
+	background: #4a1100cf;
+}
+
+.scraper-line {
+	height: 5.5vw;
+	margin-top: 2.5vw;
+}
+
+.scraper-desc {
+	margin-top: -5.5vw;
+}
+
+
+.foundation-bg-img {
+	background: url('.././images/partner/6.jpg') no-repeat center;
+}
+
+.foundation-bg-clr {
+	background: #8f0606;
+}
+
+.foundation-line {
+	height: 7.7vw;
+}
+
+.foundation-desc {
+	margin-top: -7.9vw;
+}
+
+.organic-bg-img {
+	background: url('.././images/partner/8.jpg') no-repeat center;
+}
+
+
+.organic-bg-clr {
+	background: #026f01d1;
+}
+
+.organic-line {
+	height: 6vw;
+	margin-top: 3.2vw;
+}
+
+.organic-desc {
+	margin-top: -6vw;
+}
+
+.viraali-bg-img {
+	background: url('.././images/partner/7.jpg') no-repeat center;
+}
+
+.viraali-bg-clr {
+	background: #d60000d1;
+}
+
+.viraali-title {
+	font-size: 1.3vw;
+}
+
+.viraali-line {
+	height: 8.7vw;
+}
+
+.viraali-desc {
+	margin-top: -8.9vw;
+}
+
+.download-bg-img {
+	background: url('.././images/partner/9.jpg') no-repeat center;
+}
+
+.download-bg-clr {
+	background: #e58624;
+}
+
+.download-line {
+	height: 7vw;
+}
+
+.download-desc {
+	margin-top: -6.9vw;
+}
+
+
+/* HOME SLIDER END*/
+
+/* TEAM-SINGLE */
+
+.team-sec {
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	column-gap: 2vw;
+}
+
+.team-bg {
+	background-color: #061d53;
+	width: 35vw;
+	height: 22vw;
+}
+
+.team-content {
+	width: 44vw;
+	padding-top: 8vw;
+	font-size: 1.5vw;
+	line-height: normal;
+}
+
+.team-about {
+	margin-top: 14vw;
+}
+
+.team-name {
+	font-size: 1.5vw;
+	text-align: right;
+}
+
+
+.cmd-bg {
+	background: url('.././images/team/1.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.rachna-bg {
+	background: url('.././images/team/2.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.vikrant-bg {
+	background: url('.././images/team/7.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.pushp-bg {
+	background: url('.././images/team/3.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.kunwar-bg {
+	background: url('.././images/team/6.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.rajeev-bg {
+	background: url('.././images/team/4.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.surendra-bg {
+	background: url('.././images/team/5.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.yashpal-bg {
+	background: url('.././images/team/9.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.sanjeev-bg {
+	background: url('.././images/team/8.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.sameer-bg {
+	background: url('.././images/team/10.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.rachnesh-bg {
+	background: url('.././images/team/11.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.shikhar-bg {
+	background: url('.././images/team/12.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+.suhas-bg {
+	background: url('.././images/team/13.jpg');
+	width: 33vw;
+	height: 33vw;
+	margin-left: 15vw;
+	margin-top: -14vw;
+}
+
+/* TEAM-SINGLE END*/
