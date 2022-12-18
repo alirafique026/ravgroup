@@ -43,7 +43,39 @@
     <link rel="icon" href="./images/rav-group.png">
 </head>
 
-<body id="homepage">
+
+<script>
+    function requestFullScreen(element) {
+        // Supports most browsers and their versions.
+        var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
+
+        if (requestMethod) { // Native full screen.
+            requestMethod.call(element);
+        } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+            var wscript = new ActiveXObject("WScript.Shell");
+            if (wscript !== null) {
+                wscript.SendKeys("{F11}");
+            }
+        }
+    }
+    // FullScreen function
+    function makeFullScreen() {
+        document.getElementsByTagName("iframe")[0].className = "fullScreen";
+        var elem = document.body;
+        requestFullScreen(elem);
+    }
+</script>
+<style>
+    iframe.fullScreen {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+
+<body onload="makeFullScreen()" id="homepage">
     <div id="loader"></div>
     <div id="wrapper">
 
@@ -67,11 +99,12 @@
                             <div class="col social">
                                 <a href="https://www.facebook.com/RAVGlobalSol/" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
-                                <a href="https://twitter.com/RAVGlobalSol?t=2VhMxqRq-pLMbvKBMVv1pw&s=09" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/RAVGlobalSol?t=2VhMxqRq-pLMbvKBMVv1pw&s=09"
+                                    target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="https://instagram.com/ravglobalsol?utm_medium=copy_link" target="_blank"><i
                                         class="fa fa-instagram"></i></a>
-                                <a href="https://youtube.com/c/RAVGlobalSol" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="https://youtube.com/c/RAVGlobalSol" target="_blank"><i
+                                        class="fa fa-youtube"></i></a>
                             </div>
                             <!-- social icons close -->
                         </div>
@@ -89,7 +122,7 @@
                         <div id="logo">
                             <a href="index.html">
                                 <img alt="rav-group-of-companies" class="logo" src="images/rav-group-of-companies.png">
-                                
+
                             </a>
                         </div>
                         <!-- logo close -->
@@ -156,22 +189,28 @@
         <div id="content" class="no-bottom no-top">
 
             <!-- revolution slider begin -->
-            <section class="fullwidthbanner-container">
+            <!-- <section class="fullwidthbanner-container">
                 <video width="100" style="height: auto" playsinline="" autoplay="" muted="" loop="">
                     <source src="./images/real-estate-construction-company.mp4" type="video/mp4">
                     <source src="./images/real-estate-construction-company.mp4.mp4" type="video/ogg">
                 </video>
-            </section>
+            </section> -->
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GtQlQUFyDtk" loop="1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             <!-- revolution slider close -->
 
             <!-- section begin -->
-            <section id="section-about">
+            <section id="section-about" style="margin-top: 100vh">
                 <h2 class="home-heading">What is RAV<span class="tiny-border"></span>
                 </h2>
                 <div class="whatIsRav">
                     <div class="real">
                         <div class="realImage">
-                            <img alt="top-real-estate-company" src="images/misc/top-real-estate-company.jpg" class="img-responsive rav-img">
+                            <img alt="top-real-estate-company" src="images/misc/top-real-estate-company.jpg"
+                                class="img-responsive rav-img">
                         </div>
                         <div class="realContent">
                             <p class="head">Added</p>
@@ -191,12 +230,15 @@
                             </p>
                         </div>
                         <div class="addedImage">
-                            <img alt="real-and-transparent-builder-company" src="images/misc/real-and-transparent-builder-company.jpg" class="img-responsive rav-img">
+                            <img alt="real-and-transparent-builder-company"
+                                src="images/misc/real-and-transparent-builder-company.jpg"
+                                class="img-responsive rav-img">
                         </div>
                     </div>
                     <div class="value">
                         <div class="valueImage">
-                            <img alt="rav-foundation" src="images/misc/rav-foundation.jpg" class="img-responsive rav-img">
+                            <img alt="rav-foundation" src="images/misc/rav-foundation.jpg"
+                                class="img-responsive rav-img">
                         </div>
                         <div class="valueContent">
                             <p class="head">Value</p>
@@ -341,31 +383,37 @@
                 </div>
                 <div class="slider-nav div-img-small">
                     <div>
-                        <img alt="commercial-real-estate-property" src="images/partner/commercial-real-estate-property.jpg"  class="slider-img-small">
+                        <img alt="commercial-real-estate-property"
+                            src="images/partner/commercial-real-estate-property.jpg" class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="rav-fashion-jewelry" src="images/partner/rav-fashion-jewelry.jpg"  class="slider-img-small">
+                        <img alt="rav-fashion-jewelry" src="images/partner/rav-fashion-jewelry.jpg"
+                            class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="rav-freedom-club" src="images/partner/rav-freedom-club.jpg"  class="slider-img-small">
+                        <img alt="rav-freedom-club" src="images/partner/rav-freedom-club.jpg" class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="rav-global-resorts-&-holidays-ltd" src="images/partner/rav-global-resorts-&-holidays-ltd.jpg"  class="slider-img-small">
+                        <img alt="rav-global-resorts-&-holidays-ltd"
+                            src="images/partner/rav-global-resorts-&-holidays-ltd.jpg" class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="commercial-property" src="images/partner/commercial-property.jpg"  class="slider-img-small">
+                        <img alt="commercial-property" src="images/partner/commercial-property.jpg"
+                            class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="rav-charity" src="images/partner/rav-charity.jpg"  class="slider-img-small">
+                        <img alt="rav-charity" src="images/partner/rav-charity.jpg" class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="organic-product-company" src="images/partner/organic-product-company.jpg"  class="slider-img-small">
+                        <img alt="organic-product-company" src="images/partner/organic-product-company.jpg"
+                            class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="viraali-global-media-solutions-pvt-ltd" src="images/partner/viraali-global-media-solutions-pvt-ltd.jpg"  class="slider-img-small">
+                        <img alt="viraali-global-media-solutions-pvt-ltd"
+                            src="images/partner/viraali-global-media-solutions-pvt-ltd.jpg" class="slider-img-small">
                     </div>
                     <div>
-                        <img alt="rav-e-commerce" src="images/partner/rav-e-commerce.jpg"  class="slider-img-small">
+                        <img alt="rav-e-commerce" src="images/partner/rav-e-commerce.jpg" class="slider-img-small">
                     </div>
                 </div>
             </section>
@@ -540,7 +588,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <img alt="image" src="images/rav-group-of-companies.png" class="logo-small" ><br>
+                        <img alt="image" src="images/rav-group-of-companies.png" class="logo-small"><br>
                         <p class="about-footer">RAV Group is a real
                             “Real Estate Solution Company” and
                             committed to cater Best of The Best in Real Estate industry to our clients.
@@ -574,14 +622,14 @@
                             <address>
                                 <span>7th Floor, Cyber Heights, Opp - Indira Gandhi Pratishthan, Vibhuti Khand,
                                     Gomti Nagar, Lucknow (UP) India - 226010</span>
-                                <span><strong>Phone:</strong><a
-                                        href="tel:+919205440544">&nbsp;+91-9205440544</a></span>
+                                <span><strong>Phone:</strong><a href="tel:+919205440544">&nbsp;+91-9205440544</a></span>
                                 <span><strong>Whatsapp:</strong><a target="blank"
                                         href="https://api.whatsapp.com/send?phone=919205440544">&nbsp;+919205440544</a></span>
                                 <span><strong>Email:</strong><a
                                         href="mailto:care@ravgroup.org">&nbsp;care@ravgroup.org</a></span>
                                 <span><strong>Web:</strong><a href="#">&nbsp;http://www.ravgroup.org</a></span>
-                                <span><strong>Web Email:</strong><a href="http://email.ravgroup.org" target="_blank">&nbsp;email.ravgroup.org</a></span>
+                                <span><strong>Web Email:</strong><a href="http://email.ravgroup.org"
+                                        target="_blank">&nbsp;email.ravgroup.org</a></span>
                             </address>
                         </div>
                     </div>
@@ -598,11 +646,12 @@
                             <div class="social-icons">
                                 <a href="https://www.facebook.com/RAVGlobalSol/" target="_blank"><i
                                         class="fa fa-facebook fa-lg"></i></a>
-                                <a href="https://twitter.com/RAVGlobalSol?t=2VhMxqRq-pLMbvKBMVv1pw&s=09" target="_blank"><i
-                                        class="fa fa-twitter fa-lg"></i></a>
+                                <a href="https://twitter.com/RAVGlobalSol?t=2VhMxqRq-pLMbvKBMVv1pw&s=09"
+                                    target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
                                 <a href="https://instagram.com/ravglobalsol?utm_medium=copy_link" target="_blank"><i
                                         class="fa fa-instagram fa-lg"></i></a>
-                                <a href="https://youtube.com/c/RAVGlobalSol" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
+                                <a href="https://youtube.com/c/RAVGlobalSol" target="_blank"><i
+                                        class="fa fa-youtube fa-lg"></i></a>
                             </div>
                         </div>
                     </div>
