@@ -307,6 +307,10 @@ header.de_header_2.smaller .info {
 	z-index: -1;
 }
 
+header .de_header_2#mainmenu li a:after {
+    font-size: 0px;
+}
+
 .de-navbar-left {
 	background: #151618;
 }
