@@ -436,7 +436,7 @@ header.de_header_2.smaller .info {
 #mainmenu {
 	font-family: "Montserrat";
 	float: right;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 }
 
@@ -7125,7 +7125,7 @@ a.btn btn-custom:hover {
 }
 
 .txt {
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-bottom: 0px;
@@ -8005,3 +8005,28 @@ a.btn btn-custom:hover {
 }
 
 /* TEAM-SINGLE END*/
+
+.not-found {
+	text-align: center;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.four-zero-four {
+	font-size: 20vw;
+	color: #170055 !important;
+}
+
+.home-button {
+	width: 100px;
+	height: 50px;
+	background-color: #011353;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 10px;
+	cursor: pointer;
+}
