@@ -41,9 +41,18 @@
     <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css" />
 
     <link rel="icon" href="./images/rav-group.png">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
-<body onload="makeFullScreen()" id="homepage">
+<body id="homepage">
     <div id="loader"></div>
     <div id="wrapper">
 
@@ -548,7 +557,7 @@
 
         </div>
         <!-- footer begin -->
-        <!--#include file="footer.html" -->
+        <div id="footer"></div>
         <!-- footer close -->
 
         <a href="#" id="back-to-top"></a>
