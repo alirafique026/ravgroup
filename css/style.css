@@ -5700,12 +5700,16 @@ a.read_more i {
 	display: block;
 	margin-bottom: 10px;
 	color: #999;
+	font-weight: bold;
 }
 
 .profile_pic .tiny-border {
 	margin-bottom: 20px;
 }
 
+.profile_pic {
+	text-align: center;
+}
 
 .owl-custom-nav {
 	position: absolute;
