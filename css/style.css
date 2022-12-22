@@ -442,7 +442,7 @@ header.de_header_2.smaller .info {
 
 @media (max-width: 1200px) {
 	#mainmenu {
-		font-size: 13px;
+		font-size: 11px;
 	}
 }
 
@@ -7709,6 +7709,10 @@ a.btn btn-custom:hover {
 
 /* HOME SLIDER */
 
+.ban h2 {
+	margin-bottom: 0px;
+}
+
 .property-bg-img {
 	background: url(".././images/partner/infra-builder-developers.jpg") no-repeat center;
 }
@@ -8030,3 +8034,4 @@ a.btn btn-custom:hover {
 	padding-top: 10px;
 	cursor: pointer;
 }
+
