@@ -1,5 +1,8 @@
-ErrorDocument 404 /error.html
-
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ravgroup.org
+RewriteRule (.*) https://www.ravgroup.org/$1 [R=301,L]
+<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^index.html$ / [R=301,L]
-RewriteRule ^(.*)/index.html$ /$1/ [R=301,L]
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+</IfModule>

@@ -8,7 +8,7 @@ $email = $_REQUEST['email'];
 $phone = $_REQUEST['phone'];
 $msg = $_REQUEST['message'];
 
-$email_from = $name.'<'.$email.'>';
+$email_from = 'care@ravgroup.org';
 
 $headers = "MIME-Version: 1.1";
 $headers .= "Content-type: text/html; charset=iso-8859-1";
