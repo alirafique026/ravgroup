@@ -8047,6 +8047,11 @@ a.btn btn-custom:hover {
 	padding-left: 0px;
 }
 
+/* About us page */
 .intro a {
 	color: #061d53;
+}
+
+.cont {
+	margin-bottom: 10px;
 }
