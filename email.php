@@ -1,33 +1,21 @@
 <?php
-$subject = 'You Got Message'; // Subject of your email
-$to = 'aleee.001@gmail.com';  //Recipient's E-mail
-$emailTo = $_REQUEST['email'];
 
-$name = $_REQUEST['name'];
-$email = $_REQUEST['email'];
-$phone = $_REQUEST['phone'];
-$msg = $_REQUEST['message'];
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$phone = $_POST['phone'];
+$message = $_POST['message'];
 
 $email_from = 'care@ravgroup.org';
+$email_subject = "New Form submission";
+	$email_body = "You have received a new message from $name.\n".
+	"Contact Number:\n $phone". 
+	"Here is the message:\n $message";
 
-$headers = "MIME-Version: 1.1";
-$headers .= "Content-type: text/html; charset=iso-8859-1";
-$headers .= "From: ".$name.'<'.$email.'>'."\r\n"; // Sender's E-mail
-$headers .= "Return-Path:"."From:" . $email;
+	$to = "care@ravgroup.org, aleee.001@gmail.com";
 
-$message .= 'Name : ' . $name . "\n";
-$message .= 'Email : ' . $email . "\n";
-$message .= 'Phone : ' . $phone . "\n";
-$message .= 'Message : ' . $msg;
-
-if (@mail($to, $subject, $message, $email_from))
-{
-	// Transfer the value 'sent' to ajax function for showing success message.
-	echo 'sent';
-}
-else
-{
-	// Transfer the value 'failed' to ajax function for showing error message.
-	echo 'failed';
-}
+	$headers = "From: $email_from \r\n";
+  
+	$headers .= "Reply-To: $visitor_email \r\n";
+  
+	mail($to,$email_subject,$email_body,$headers);
 ?>
